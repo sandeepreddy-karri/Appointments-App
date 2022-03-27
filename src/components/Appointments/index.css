@@ -1,0 +1,106 @@
+/* Write your CSS here */
+
+.bgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.insideContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 40px;
+}
+
+.upperContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftCard {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.label {
+  color: #b5b7c4;
+}
+
+.input {
+  margin-bottom: 20px;
+  padding: 6px;
+  outline: none;
+  width: 70%;
+}
+
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  width: 60px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .appointments-img {
+    display: none;
+  }
+}
+
+.horizantal-line {
+  border-width: 1px;
+  border-color: #b5b7c4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.lowerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button1 {
+  color: #9897f0;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #9897f0;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.starredButton {
+  color: #ffffff;
+  background-color: #9897f0;
+  border-width: 1px;
+  border-color: #9897f0;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.appointment-list {
+  display: flex;
+  flex-wrap: wrap;
+}
